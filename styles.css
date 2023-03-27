@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+#header{
+    height: 30vh;
+    text-align: center;
+    color: black
+}
+
+h1{
+    font-size: 8vh;
+    padding: 20px;
+    font-family: impact;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+h2{
+    font-size: 6vh;
+    padding: 20px;
+    font-family: impact;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+#mainTotalContainer{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+
+}
+
+#mainContainer div:last-of-type{
+    margin-bottom: 4vh;
+}
+
+.firstTimeContainer{
+    background-color: white;
+    border: 4px solid lightcoral;
+    border-radius: 8px;
+    margin-top: 4vh;
+    height: 125px;
+    width: 95%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    
+}
+
+
+.timeContainer{
+    background-color: white;
+    border: 4px solid lightcoral;
+    border-radius: 8px;
+    margin-top: 6vh;
+    height: 125px;
+    width: 40%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
+}
+
+.timeContainer:last-of-type{
+    background-color: white;
+    border: 4px solid lightcoral;
+    border-radius: 8px;
+    margin-top: 0vh;
+    height: 125px;
+    width: 40%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
+}
+
+
+.timeWord{
+    padding-top: 2%;
+    justify-content: center;
+    height: 10%;    
+}
+
+.word{
+    text-align:center;
+    color: white;
+    background: #eee;
+    font-family: impact;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-shadow: -3px -3px 3px #df0000, 3px -3px 3px #df0000, -3px 3px 3px #df0000, 3px 3px 3px #df0000;
+    background-color: transparent;
+}
+
+
+.timeNumberContainer{
+   padding-top: 12px;
+   text-align: center;
+
+}
+
+#TimeContainer1{
+    color: snow;
+    font-family: impact;
+    font-size: 40px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    padding-top: 3%;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#TimeContainer2{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+#TimeContainer3{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+#TimeContainer4{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+#TimeContainer5{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+#TimeContainer6{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+#TimeContainer7{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+#TimeContainer8{
+    color: snow;
+    font-family: impact;
+    font-size: 45px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+#imgContainer{
+    display: flex;
+    padding-left: 55px;
+    padding-top: 20px;
+}
